@@ -17,12 +17,13 @@ The difference between `git stash apply` and `git stash pop` is `apply` option o
 | Command  | Operation |
 | ------------- | ------------- |
 | `git stash apply STASH-NAME`  | Applies the changes and leaves a copy in the stash  |
-| `git stash pop STASH-NAME`  | Applies the changes and removes the files from the stash  |
+| `git stash pop "stash@{index}"`  | Applies the changes and removes the files from the stash  |
 
 ## Delete Stashed Changes
 | Command  | Operation |
 | ------------- | ------------- |
-| `git stash drop STASH-NAME`  |   |
+| `git stash drop`  | Removes the most recently stashed changes from the repository.  |
+| `git stash drop "stash@{index}"`  | Removes a specific stash version.  |
 | `git stash clear`  | Removes all stashes from the repository  |
 
 
