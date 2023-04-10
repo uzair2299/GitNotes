@@ -10,7 +10,9 @@
 
 ## Retrieve Stashed Changes
 
-To retrieve changes out of the stash and apply them to the current branch you’re on, you have two options:
+To retrieve changes out of the stash and apply them to the current branch you’re on, you have two options: <br/>
+Difference Between Pop and Apply Git Stashes <br/>
+The difference between `git stash apply` and `git stash pop` is `apply` option only applies the stash while the `pop` option applies the stash but also removes the stash from the stack.
 
 | Command  | Operation |
 | ------------- | ------------- |
