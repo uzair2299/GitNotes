@@ -1,12 +1,13 @@
 <pre><code>&lt;configuration&gt;
-    &lt;appender name = STDOUT class="ch.qos.logback.core.ConsoleAppender"&gt;
+    &lt;variable name="LOG_PATH" value="D:\logs"&gt;fileName.log&lt;/variable&gt;
+    &lt;appender name = "STDOUT" class="ch.qos.logback.core.ConsoleAppender"&gt;
         &lt;encoder&gt;
             &lt;pattern&gt;%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} -%kvp- %msg%n&lt;/pattern&gt;
        &lt;/encoder&gt; 
     &lt;/appender&gt;
     
-     &lt;appender name = FILE class="ch.qos.logback.core.FileAppender"&gt;
-        &lt;file&gt;fileName.log&lt;/file&gt;
+     &lt;appender name = "FILE" class="ch.qos.logback.core.FileAppender"&gt;
+        &lt;file&gt;${LOG_PATH}\myapp.log&lt;/file&gt;
         &lt;encoder&gt;
             &lt;pattern&gt;%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} -%kvp- %msg%n&lt;/pattern&gt;
        &lt;/encoder&gt; 
