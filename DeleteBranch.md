@@ -36,6 +36,10 @@
 ## Merging
 
 
+| Command  | Operation |
+| ------------- | ------------- |
+| `git merge <branch-to-merge>` |This will merge the changes from `<branch-to-merge>` into your current branch. If there are any conflicts between the changes on the two branches, Git will pause the merge process and ask you to resolve the conflicts before proceeding.|
+
 ## Delete Branch
 
 | Command  | Operation |
