@@ -1,3 +1,15 @@
+# Start a Project
+## Initialize New Git Repository
+| Command  | Operation |
+| ------------- | ------------- |
+| `git init` | This is a command in Git that is used to initialize a new Git repository. It creates a new directory with a .git subdirectory that contains all the necessary files for a Git repository. |
+
+## Cloning a Git Repository:
+
+| Command  | Operation |
+| ------------- | ------------- |
+| `git clone <repository URL>` |  creates a local copy of a remote Git repository on your machine. This copy includes all of the repository's files, branches, and commit history. Where `<repository URL>` is the URL of the remote Git repository that you want to clone. |
+
 # Branches
 ## Listing
 | Command  | Operation |
