@@ -28,6 +28,11 @@
 | `git checkout -b <branchname>` |  Creates a new branch with the specified name and switches to it in one command.|
 
 ## Push Branch To The Remote
+| Command  | Operation |
+| ------------- | ------------- |
+| `git push <remote> <local-branch-name>:<remote-branch-name>` | `<remote>` is the name of the remote repository you want to push.This is typically `origin`. </br> `<local-branch-name>` is the name of the local branch you want to push. </br> `<remote-branch-name>` is the name of the branch you want to create or update on the remote repository. If you omit this, Git will use the same name as the local branch.|
+
+
 ## Merging
 
 
@@ -37,4 +42,6 @@
 | ------------- | ------------- |
 | `git branch -d localBranchName` | This command deletes a local branch.The -d option will delete the branch only if it has already been pushed and merged with the remote branch. Use -D instead if you want to force the branch to be deleted, even if it hasn't been pushed or merged yet. |
 | `git push origin --delete remoteBranchName` | This command deletes a remote branch |
+
+* item
 
