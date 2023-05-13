@@ -2,7 +2,7 @@
 ## Listing
 | Command  | Operation |
 | ------------- | ------------- |
-| `git branch` |  Lists all the branches in the repository. The current branch is indicated with an asterisk. |
+| `git branch` |  Lists all the local branches in the repository. The current branch is indicated with an asterisk. |
 
 ## Create New Branch
 | Command  | Operation |
