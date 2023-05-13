@@ -48,3 +48,21 @@
 | `git push origin --delete remoteBranchName` | This command deletes a remote branch |
 
 
+ 
+
+
+
+##  Conflict Markers
+
+```
+<<<<<<< HEAD 
+Code from current branch
+=======
+Code from other branch
+>>>>>>> other-branch
+```
+The `<<<<<<< HEAD` marker indicates the start of the conflict resolution block. The code between this marker and the `=======` marker is from your current branch, and the code between the `=======` marker and the `>>>>>>>` marker is from the other branch.
+
+To resolve the conflict, you need to manually edit the code to decide which changes to keep and which to discard. Once you have resolved the conflict, you can remove the conflict markers and commit the changes.
+  
+
