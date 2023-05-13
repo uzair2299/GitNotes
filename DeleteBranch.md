@@ -7,7 +7,14 @@
 ## Create New Branch
 | Command  | Operation |
 | ------------- | ------------- |
-| `git branch <branchname>` |  Lists all the branches in the repository. The current branch is indicated with an asterisk. |
+| `git branch <branchname>` |  Creates a new branch with the specified name based on the current branch. |
+
+
+## Switching Branch
+| Command  | Operation |
+| ------------- | ------------- |
+| `git checkout <branchname>` |  Switches to the specified branch and updates the working directory to reflect the files in that branch. |
+
 
 
 ## Delete Branch
