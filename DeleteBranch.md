@@ -27,7 +27,8 @@
 | ------------- | ------------- |
 | `git checkout -b <branchname>` |  Creates a new branch with the specified name and switches to it in one command.|
 
-##Push Branch To The Remote
+## Push Branch To The Remote
+## Merging
 
 
 ## Delete Branch
