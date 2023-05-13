@@ -3,6 +3,8 @@
 | Command  | Operation |
 | ------------- | ------------- |
 | `git branch` |  Lists all the local branches in the repository. The current branch is indicated with an asterisk. |
+| `git branch -r` |  Lists all remote-tracking branches. |
+
 
 ## Create New Branch
 | Command  | Operation |
