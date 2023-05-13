@@ -1,5 +1,9 @@
-
-# Delete Branch
+# Branches
+## Listing
+| Command  | Operation |
+| ------------- | ------------- |
+| `git branch` |  Lists all the branches in the repository. The current branch is indicated with an asterisk. |
+## Delete Branch
 
 | Command  | Operation |
 | ------------- | ------------- |
