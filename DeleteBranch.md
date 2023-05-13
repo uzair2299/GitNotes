@@ -13,7 +13,14 @@
 ## Switching Branch
 | Command  | Operation |
 | ------------- | ------------- |
-| `git checkout <branchname>` |  Switches to the specified branch and updates the working directory to reflect the files in that branch. |
+| `git checkout <branchname>` |  Switches to the existing specified branch and updates the working directory to reflect the files in that branch.|
+
+
+## Create & Switch Branch
+| Command  | Operation |
+| ------------- | ------------- |
+| `git checkout -b <branchname>` |  Creates a new branch with the specified name and switches to it in one command.|
+
 
 
 
