@@ -6,6 +6,8 @@
 | `git branch -r` |  Lists all remote-tracking branches. In Git, the -r flag for the git branch command stands for "remote" |
 | `git branch -a` |  Lists all local and remote branches. In Git, the -a flag for the git branch command stands for "all" |
 | `git branch -v` |  Lists all local branches along with their last commit message. In Git, the -v flag for the git branch command stands for "verbose" |
+| `git branch --merged` |  Lists all branches that have been merged into the current branch. |
+| `git branch --no-merged` |  Lists all branches that have not been merged into the current branch. |
 
 
 ## Create New Branch
