@@ -5,10 +5,25 @@
 | `git init` | This is a command in Git that is used to initialize a new Git repository. It creates a new directory with a .git subdirectory that contains all the necessary files for a Git repository. |
 
 ## Cloning a Git Repository:
-
 | Command  | Operation |
 | ------------- | ------------- |
 | `git clone <repository URL>` |  creates a local copy of a remote Git repository on your machine. This copy includes all of the repository's files, branches, and commit history. Where `<repository URL>` is the URL of the remote Git repository that you want to clone. |
+
+
+
+# Tags
+Git tags are a way to mark specific points in Git history as significant. They are used to label or tag specific commits with a meaningful name, often to indicate version releases or important milestones in a project. Tags are typically used to create a stable reference to a specific commit, making it easier to reference and access later.
+## Create Tag
+| Command  | Operation |
+| ------------- | ------------- |
+| `git tag <tag_name>` |  Create a lightweight tag.|
+| `git tag -a <tag_name> -m "Tag message"` |  Create an annotated tag. </br> `-a`: This option stands for "annotated." When used with the git tag command, it creates an annotated tag, which includes additional metadata such as the tagger's name, email, date, and a message. </br> `-m`: This option allows you to provide a message that describes the tag. It is used to specify a message associated with the creation of the tag|
+ ## List Tag
+| Command  | Operation |
+| ------------- | ------------- |
+| `git tag` |  The `git tag` command without any additional options will list the tags that exist locally in your Git repository. It will display the names of all the tags that have been created in your local repository.|
+| `git ls-remote --tags <remote_name>` |  This command will show the tags available in the specified remote repository.|
+|`git ls-remote --tags <remote_name> <branch_name>`|List remote tags for a specific branch. `git ls-remote --tags origin main` This will show the tags that are associated with the "main" branch in the "origin" remote repository.|
 
 # Branches
 ## Listing
