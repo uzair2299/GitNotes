@@ -18,6 +18,12 @@ Git tags are a way to mark specific points in Git history as significant. They a
 | ------------- | ------------- |
 | `git tag <tag_name>` |  Create a lightweight tag.|
 | `git tag -a <tag_name> -m "Tag message"` |  Create an annotated tag. </br> `-a`: This option stands for "annotated." When used with the git tag command, it creates an annotated tag, which includes additional metadata such as the tagger's name, email, date, and a message. </br> `-m`: This option allows you to provide a message that describes the tag. It is used to specify a message associated with the creation of the tag|
+
+## Latter Tagging
+| Command  | Operation |
+| ------------- | ------------- |
+| `git tag <tag_name> <commit_identifier>` |To add a tag to an older commit in Git, you need to specify the commit's identifier, such as its commit hash or a reference to the commit. Find the identifier of the commit you want to tag by using `git log`.|
+
  ## List Tag
 | Command  | Operation |
 | ------------- | ------------- |
@@ -41,6 +47,12 @@ Git tags are a way to mark specific points in Git history as significant. They a
 | Command  | Operation |
 | ------------- | ------------- |
 | `git tag -d <tag_name>` | Delete a tag locally. |
+| `git push origin -delete <tag_name>` | Delete a remote tag. |
+
+## Checkout Tag
+| Command  | Operation |
+| ------------- | ------------- |
+| `git checkout <tag_name>` | Checkout a specfic tag. |
 | `git push origin -delete <tag_name>` | Delete a remote tag. |
 
 
