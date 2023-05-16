@@ -55,6 +55,10 @@ Git tags are a way to mark specific points in Git history as significant. They a
 | `git checkout <tag_name>` | Checkout a specfic tag. |
 | `git push origin -delete <tag_name>` | Delete a remote tag. |
 
+If you have checked out a specific tag in Git and want to switch back to the current code (typically the latest commit on the branch), you can do so by checking out the branch you were on before inspecting the tag.
+
+First, you need to identify the branch you were on before checking out the tag. You can use the `git branch` command to list all the branches in your repository and identify the branch you want to switch back to.
+The current branch you were on will be indicated with an asterisk (*) next to its name. Once you have identified the branch, you can use the `git checkout` command to switch back to it:
 
 # Branches
 ## Listing
