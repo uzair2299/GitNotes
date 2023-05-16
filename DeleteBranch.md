@@ -22,8 +22,7 @@ Git tags are a way to mark specific points in Git history as significant. They a
 ## Latter Tagging
 | Command  | Operation |
 | ------------- | ------------- |
-| `git tag <tag_name> <commit_identifier>` |To add a tag to an older commit in Git, you need to specify the commit's identifier, such as its commit hash or a reference to the commit. Find the identifier of the commit you want to tag by using `git log`. For example, if you want to add a tag called "v1.0" to an older commit with the commit hash "abc123", you would run the following command: `git tag v1.0 abc123
-`|
+| `git tag <tag_name> <commit_identifier>` |To add a tag to an older commit in Git, you need to specify the commit's identifier, such as its commit hash or a reference to the commit. Find the identifier of the commit you want to tag by using `git log`. For example, if you want to add a tag called "v1.0" to an older commit with the commit hash "abc123", you would run the following command: `git tag v1.0 abc123`|
 
  ## List Tag
 | Command  | Operation |
