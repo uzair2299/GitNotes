@@ -25,6 +25,25 @@ Git tags are a way to mark specific points in Git history as significant. They a
 | `git ls-remote --tags <remote_name>` |  This command will show the tags available in the specified remote repository.|
 |`git ls-remote --tags <remote_name> <branch_name>`|List remote tags for a specific branch. `git ls-remote --tags origin main` This will show the tags that are associated with the "main" branch in the "origin" remote repository.|
 
+
+## Show Tag information
+| Command  | Operation |
+| ------------- | ------------- |
+| `git show <tag_name >` | Show detailed information about a specific tag |
+
+## Pushing Tag To The Remote
+| Command  | Operation |
+| ------------- | ------------- |
+| `git push origin <tag_name>` | Push tag to a remote repository |
+| `git push origin --tags` | Push all tag to a remote repository |
+
+## Delete Tag
+| Command  | Operation |
+| ------------- | ------------- |
+| `git tag -d <tag_name>` | Delete a tag locally. |
+| `git push origin -delete <tag_name>` | Delete a remote tag. |
+
+
 # Branches
 ## Listing
 | Command  | Operation |
