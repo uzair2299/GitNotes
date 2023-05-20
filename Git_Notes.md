@@ -122,6 +122,7 @@ The `git fetch` command is used to retrieve changes from a remote repository. It
 | Command  | Operation |
 | ------------- | ------------- |
 | `git fatch` |Used to retrieve the latest changes from a remote repository without merging them into your local branches. </br> **1 New branches:** If new branches have been created in the remote repository, `git fetch` will download information about those branches and create or update the corresponding remote-tracking branches in your local repository. </br> **2 Updated branch commits:** If commits have been added to existing branches in the remote repository, `git fetch` will download those commits and update the remote-tracking branches in your local repository to reflect the latest state of those branches. </br> **3 Deleted branches:** If branches have been deleted in the remote repository, `git fetch` will update your local repository by removing the corresponding remote-tracking branches. </br> **4 Tags:** By default, `git fetch` retrieves tags associated with the remote repository. Tags represent specific points in history, often used to mark important milestones or releases.|
+|`git fetch <remote> <branch>`|Fetch a specific branch from a remote repository. Replace `<remote>` with the name of the remote repository (e.g., origin) and `<branch>` with the name of the branch you want to fetch.|
 
 
 
