@@ -140,7 +140,7 @@ The `<<<<<<< HEAD` marker indicates the start of the conflict resolution block. 
 
 To resolve the conflict, you need to manually edit the code to decide which changes to keep and which to discard. Once you have resolved the conflict, you can remove the conflict markers and commit the changes.
 
-# commonly used term
+# Commonly Used Term
 **Remote Repository** efers to a copy of a repository hosted on a different server or location than your local repository. A remote repository allows collaboration and sharing of code with other developers.
   
 
