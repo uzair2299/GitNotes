@@ -116,6 +116,13 @@ The current branch you were on will be indicated with an asterisk (*) next to it
 | `git clone -b <branchname> <remote-repo-url>` |Used to clone a specific branch from a remote repository using Git. </br> `<branchname>` : Replace this with the name of the branch you want to clone.  </br> `<remote-repo-url>` : Replace this with the URL of the remote repository you want to clone. </br> Here `-b` is just an alias for `--branch`|
 
  
+# Git Fatch
+The `git fetch` command is used to retrieve changes from a remote repository. It updates your local repository's references to the remote branches, allowing you to see and interact with the latest changes. By default, it only updates the remote-tracking branches and does not merge the changes into your local branches.
+
+| Command  | Operation |
+| ------------- | ------------- |
+| `git fatch` |Used to retrieve the latest changes from a remote repository without merging them into your local branches. </br> 1 New branches: If new branches have been created in the remote repository, `git fetch` will download information about those branches and create or update the corresponding remote-tracking branches in your local repository. </br> 2 Updated branch commits: If commits have been added to existing branches in the remote repository, `git fetch` will download those commits and update the remote-tracking branches in your local repository to reflect the latest state of those branches. </br> 3 Deleted branches: If branches have been deleted in the remote repository, `git fetch` will update your local repository by removing the corresponding remote-tracking branches. </br> 4 Tags: By default, `git fetch` retrieves tags associated with the remote repository. Tags represent specific points in history, often used to mark important milestones or releases.|
+
 
 
 
