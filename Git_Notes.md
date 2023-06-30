@@ -142,5 +142,22 @@ To resolve the conflict, you need to manually edit the code to decide which chan
 
 # Commonly Used Term
 **Remote Repository** efers to a copy of a repository hosted on a different server or location than your local repository. A remote repository allows collaboration and sharing of code with other developers.
+
+# Common Uses of Git Checkout
+| Command  | Operation |
+| ------------- | ------------- |
+| `git checkout <branch-name>` |You can use `git checkout` to switch between existing branches within a repository.|
+| `git checkout -b <new-branch-name>` |If you want to create a new branch and immediately switch to it, you can use the `-b` option with `git checkout`.|
+| `git checkout <commit-hash>` |By providing the commit hash, you can check out a specific commit in the repository's history. This puts you in a "detached HEAD" state.|
+| `git checkout -b <new-branch-name> <commit-hash>` |You can create a new branch from a specific commit by providing the commit hash and the desired branch name.|
+| `git checkout .` |Discard changes in all modified files.|
+| `git checkout -- <file-path>` |Discard changes in a specific file.|
+
+
+
+
+
+
+
   
 
