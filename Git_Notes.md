@@ -155,6 +155,12 @@ To resolve the conflict, you need to manually edit the code to decide which chan
 
 
 
+# Pull changes from remote
+Navigate to the local directory where your Git repository is located using the `cd /path/to/your/repository`
+| Command  | Operation |
+| ------------- | ------------- |
+| `git pull` |pull the latest changes from the remote repository (typically `origin`)|
+| `git pull origin branch_name` |If you want to pull changes from a specific remote branch, you can specify the remote and branch name.|
 
 
 
